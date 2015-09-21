@@ -40,7 +40,7 @@ LOCAL_SHARED_LIBRARIES        := libsdmcore libqservice libbinder libhardware li
                                  android.hardware.graphics.allocator@2.0 \
                                  android.hardware.graphics.allocator@3.0 \
                                  android.hardware.graphics.composer@2.1 \
-                                 vendor.display.config@2.0
+                                 vendor.display.config@2.0 libbfqio
 
 LOCAL_SRC_FILES               := hwc_session.cpp \
                                  hwc_session_services.cpp \
